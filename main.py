@@ -1,7 +1,8 @@
 from tkinter import *
 
 BACKGROUND_COLOR = "#B1DDC6"
-
+LANGUAGE_FONT = ("Arial", 40, "italic")
+WORD_FONT = ("Arial", 60, "bold")
 # UI
 
 window = Tk()
