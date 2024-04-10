@@ -1,4 +1,5 @@
 from tkinter import *
+import pandas
 
 BACKGROUND_COLOR = "#B1DDC6"
 LANGUAGE_FONT = ("Arial", 40, "italic")
@@ -18,10 +19,12 @@ correct_image = PhotoImage(file="images/right.png")
 wrong_image = PhotoImage(file="images/wrong.png")
 
 # Buttons
+
 correct_button = Button(image=correct_image, bg=BACKGROUND_COLOR, highlightthickness=0)
 wrong_button = Button(image=wrong_image, bg=BACKGROUND_COLOR, highlightthickness=0)
 
 correct_button.grid(row=1, column=0)
 wrong_button.grid(row=1, column=1)
+
 
 window.mainloop()
