@@ -2,7 +2,10 @@ from tkinter import *
 
 BACKGROUND_COLOR = "#B1DDC6"
 
+# UI
+
 window = Tk()
+window.title("French/English Flash Card Game by TahaLearns")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
 canvas = Canvas(width=800, height=526, bg=BACKGROUND_COLOR, highlightthickness=0)
